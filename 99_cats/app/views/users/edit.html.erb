@@ -1,7 +1,8 @@
-<h1>This is the new page</h1>
+<h1>This is the edit page</h1>
 
 <form action= <% users_url %> method = "POST" >
-<label >Choose username </label>
+<input type="hidden" name = "_method" value = "patch">
+<label >Change username </label>
 <input name= users[username] value = "">
 <button>type = "submit" </button>
 
