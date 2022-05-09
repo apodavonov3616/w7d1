@@ -1,9 +1,14 @@
 <h1>This is the new page</h1>
 
-<form action= <% users_url %> method = "POST" >
+<form action= "<%= users_url %>" method = "POST" >
+
 <label >Choose username </label>
 <input name= users[username] value = "">
-<button>type = "submit" </button>
+
+<label >Choose password</label>
+<input password= users[password] value = "">
+
+<button>submit</button>
 
 
 </form>
